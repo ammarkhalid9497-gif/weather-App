@@ -1,0 +1,32 @@
+body {
+    background: url('https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?q=80&w=2065');
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+}
+.search input {
+    border: 0; outline: 0; background: #ebfffc;
+    color: #555; padding: 10px 15px;
+    border-radius: 30px; margin-right: 10px;
+}
+.search button {
+    border: 0; outline: 0; background: #ebfffc;
+    border-radius: 50%; width: 40px; height: 40px; cursor: pointer;
+}
+.temp { font-size: 60px; margin-top: 20px; }
+.city { font-size: 30px; margin-bottom: 20px; }
+body {
+    background-size: cover;
+    background-position: center;
+    transition: background 0.5s ease-in-out; /* Smooth change ke liye */
+}
