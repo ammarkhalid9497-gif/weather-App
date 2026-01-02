@@ -1,4 +1,4 @@
-const apiKey = "97fe00fc0c70e91e989ea40105b35004"; // Yahan apni API key dalein
+const apiKey = ""; // Yahan apni API key dalein
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 const cityInput = document.getElementById("city-input");
@@ -55,4 +55,5 @@ cityInput.addEventListener("keypress", (event) => {
         // Agar Enter dabaya gaya hai, to weather check karne wala function chala dein
         checkWeather(cityInput.value);
     }
+
 });
