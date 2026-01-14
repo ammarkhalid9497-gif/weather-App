@@ -7,7 +7,7 @@ on:
 jobs:
   demo:
    runs-on: ubuntu-latest
-  steps:
-     - name: greeting
+   steps:
+      - name: greeting
       run: echo "Hello from ammar"
    
