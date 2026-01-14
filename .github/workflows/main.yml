@@ -8,6 +8,6 @@ jobs:
   demo:
    runs-on: ubuntu-latest
    steps:
-      - name: greeting
+    - name: greeting
       run: echo "Hello from ammar"
    
